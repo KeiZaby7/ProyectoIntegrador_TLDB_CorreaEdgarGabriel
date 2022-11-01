@@ -29,8 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author KeiZaby7
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
-//@CrossOrigin(origins = "https://tldb-portfolio.web.app")
+@CrossOrigin(origins = {"https://tldb-portfolio.web.app","http://localhost:4200"})
 @RequestMapping("/skill")
 public class CHys {
 

@@ -37,6 +37,8 @@ div{
         left: 27%;
         top: 26.7em;
     }
+
+    
 }
 @media (min-width: 576px){
     #fotoDePerfil{
@@ -45,6 +47,13 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px rgb(0, 0, 0);
         left: 3%;
-        top: 23.5em;
+        top: 57em;
+    }
+
+    .descripcion{
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
 }
