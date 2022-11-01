@@ -1,5 +1,6 @@
 package com.portfolio.kz7.Service;
 
+import com.portfolio.kz7.Entity.Educacion;
 import com.portfolio.kz7.Entity.Persona;
 import com.portfolio.kz7.Repository.IPersonaRepository;
 import java.util.List;
@@ -41,5 +42,13 @@ public class ImpPersonaService {
     
     public boolean existsByNombre(String nombre){
         return ipersonaRepository.existsByNombre(nombre);
+    }
+
+    public boolean existsByNombreE(String nombreE) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void save(Educacion educacion) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
